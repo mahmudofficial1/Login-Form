@@ -1,0 +1,101 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    viewport-fit: 100%;
+}
+.body {
+  background: linear-gradient(
+    90deg,
+    rgba(158, 29, 122, 1) 13%,
+    rgba(255, 0, 145, 1) 74%
+  );
+}
+.body-container {
+  background-color: white;
+  width: 400px;
+  height: 490px;
+  max-width: 450px;
+  max-height: 500px;
+  margin: 0 auto;
+  padding: 0 2em;
+  box-shadow: 0 0 20px #000000;
+}
+.body-header {
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  padding-top: 4%;
+  color: black;
+}
+.button-one {
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgba(158, 29, 122, 1) 13%,
+    rgba(255, 0, 145, 1) 74%
+  );
+  color: white;
+  height: 50px;
+  width: 195px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.6s ease;
+  box-shadow: 0 0 20px #000000;
+}
+.button-one:hover {
+  cursor: pointer;
+}
+.button-two {
+  background-color: white;
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.6s ease;
+}
+.button-two:hover {
+  cursor: pointer;
+}
+.username {
+  padding-bottom: 20px;
+  width: 390px;
+  background: rgb(231, 225, 225);
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2%;
+  box-shadow: 0 0 10px #000000;
+}
+.password {
+  padding-bottom: 20px;
+  width: 390px;
+  background: rgb(231, 225, 225);
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2%;
+  box-shadow: 0 0 10px #000000;
+}
+.content p a {
+  text-decoration: none;
+  color: rgba(158, 29, 122, 1);
+  font-size: 25px;
+}
+.button-three {
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgba(158, 29, 122, 1) 13%,
+    rgba(255, 0, 145, 1) 74%
+  );
+  color: white;
+  height: 50px;
+  width: 390px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 0 20px #000000;
+}
+.button-three:hover {
+  transition: 0.6s ease;
+  cursor: pointer;
+}
